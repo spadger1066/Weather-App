@@ -12,6 +12,7 @@
 		DC5780181D4DF990006F9291 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC5780161D4DF990006F9291 /* Main.storyboard */; };
 		DC57801A1D4DF990006F9291 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC5780191D4DF990006F9291 /* Assets.xcassets */; };
 		DC57801D1D4DF990006F9291 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC57801B1D4DF990006F9291 /* LaunchScreen.storyboard */; };
+		DC5780251D4DFABB006F9291 /* mist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC5780241D4DFABB006F9291 /* mist.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DC5780191D4DF990006F9291 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC57801C1D4DF990006F9291 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC57801E1D4DF990006F9291 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC5780241D4DFABB006F9291 /* mist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mist.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,20 @@
 				DC5780121D4DF990006F9291 /* AppDelegate.swift */,
 				DC5780141D4DF990006F9291 /* ViewController.swift */,
 				DC5780161D4DF990006F9291 /* Main.storyboard */,
+				DC5780261D4DFAD1006F9291 /* images */,
 				DC5780191D4DF990006F9291 /* Assets.xcassets */,
 				DC57801B1D4DF990006F9291 /* LaunchScreen.storyboard */,
 				DC57801E1D4DF990006F9291 /* Info.plist */,
 			);
 			path = "Weather App";
+			sourceTree = "<group>";
+		};
+		DC5780261D4DFAD1006F9291 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DC5780241D4DFABB006F9291 /* mist.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5780251D4DFABB006F9291 /* mist.jpg in Resources */,
 				DC57801D1D4DF990006F9291 /* LaunchScreen.storyboard in Resources */,
 				DC57801A1D4DF990006F9291 /* Assets.xcassets in Resources */,
 				DC5780181D4DF990006F9291 /* Main.storyboard in Resources */,
